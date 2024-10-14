@@ -1,0 +1,30 @@
+Package: esqlabsR.FunctionVisualiser
+Title: Function Visualiser
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+      given = "Felix",
+      family = "Mil", 
+      email = "felix.mil@esqlabs.com", 
+      role = c("aut", "cre")
+    ),
+    person(
+      given = "Anastasiia", 
+      family = "Kostiv", 
+      role = "ctb"
+    )
+  )
+Description: The Dynamic Equation Visualizer
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.2),
+    golem (>= 0.4.1),
+    readxl (>= 1.4.3),
+    shiny (>= 1.8.1.1),
+    shinyjs (>= 2.1.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -1,3 +1,6 @@
+---
+output: github_document
+---
 
 # esqlabsR.FunctionVisualiser
 
@@ -8,8 +11,7 @@ The Dynamic Equation Visualizer
 
 ## Installation
 
-You can install the development version of `esqlabsR.FunctionVisualiser`
-from [GitHub](https://github.com/) with:
+You can install the development version of `esqlabsR.FunctionVisualiser` from [GitHub](https://github.com/) with:
 
 ``` r
 install.packages("remotes")
@@ -25,4 +27,6 @@ library(esqlabsR.FunctionVisualiser)
 esqlabsR.FunctionVisualiser::run_app()
 ```
 
-<img src="inst/app/www/app_demo.png" width="100%" style="display: block; margin: auto;" />
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("inst/app/www/app_demo.png")
+```
